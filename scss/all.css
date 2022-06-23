@@ -1,0 +1,512 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.s1 {
+  position: absolute;
+  z-index: -3;
+  top: 0;
+  right: 0;
+  width: 851px;
+  height: 768px;
+}
+
+.s2 {
+  position: absolute;
+  z-index: -1;
+  top: 589.5px;
+  left: -223px;
+}
+
+.s3 {
+  position: absolute;
+  z-index: -1;
+  top: 2342px;
+  right: 0px;
+}
+
+.s4 {
+  position: absolute;
+  z-index: -3;
+  top: 2640px;
+  left: 50px;
+}
+
+.container {
+  max-width: 1088px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .header {
+  padding: 23px 0;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header img {
+  width: 218px;
+  height: 39.5px;
+}
+
+.container .header .a1 {
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #FF5D50;
+  padding: 8px 32px;
+  border-radius: 22px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.container .banner {
+  max-width: 1085px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 217px;
+}
+
+.container .banner .text {
+  width: 41.56%;
+}
+
+.container .banner .text .p1 {
+  font-size: 18px;
+  color: #56C4C5;
+  font-weight: bold;
+  margin-bottom: 8px;
+  line-height: 1.45;
+}
+
+.container .banner .text h1 {
+  font-size: 48px;
+  color: #221E1F;
+  font-weight: bold;
+  line-height: 1.45;
+  margin-bottom: 16px;
+}
+
+.container .banner .text p {
+  font-size: 20px;
+  color: #221E1F;
+  line-height: 1.45;
+}
+
+.container .banner img {
+  width: 49.03%;
+  height: 534px;
+}
+
+.container .content {
+  position: relative;
+}
+
+.container .content h1 {
+  font-size: 32px;
+  line-height: 1.45;
+  color: #221E1F;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container .content p {
+  font-size: 20px;
+  line-height: 1.45;
+  text-align: center;
+  color: #221E1F;
+  margin-top: 16px;
+}
+
+.container .content .main1 {
+  margin-top: 48px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .content .main1 img {
+  width: 90px;
+  height: 90px;
+}
+
+.container .content .main1 .list1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 54px;
+  width: 27.389%;
+  text-align: center;
+}
+
+.container .content .main1 .list1 h2 {
+  font-size: 24px;
+  line-height: 1.45;
+  font-weight: bold;
+  color: #221E1F;
+  margin: 24px 0;
+}
+
+.container .content .main1 .list1 p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #747474;
+}
+
+.container .content .main1 .list2 {
+  width: 22.058%;
+  text-align: center;
+}
+
+.container .content .main1 .list2 h2 {
+  font-size: 24px;
+  line-height: 1.45;
+  font-weight: bold;
+  color: #221E1F;
+  margin: 24px 0;
+}
+
+.container .content .main1 .list2 p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #747474;
+}
+
+.container .content .main1 .list3 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 27.389%;
+  padding-right: 65px;
+  padding-left: 11px;
+  text-align: center;
+}
+
+.container .content .main1 .list3 h2 {
+  font-size: 24px;
+  line-height: 1.45;
+  font-weight: bold;
+  color: #221E1F;
+  margin: 24px 0;
+}
+
+.container .content .main1 .list3 p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #747474;
+}
+
+.container .content .main2 {
+  margin-bottom: 100px;
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .content .main2 .list {
+  background: #FFFFFF;
+  border-radius: 12px;
+  width: 23.897%;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+}
+
+.container .content .main2 .list img {
+  vertical-align: middle;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.container .content .main2 .list h4 {
+  font-size: 16px;
+  line-height: 1.46;
+  font-weight: bold;
+  text-align: center;
+  color: #56C4C5;
+  margin: 16px 0;
+}
+
+.container .content .main2 .list p {
+  font-size: 16px;
+  line-height: 1.46;
+  text-align: center;
+  color: #221E1F;
+  padding: 0 16px;
+  margin-bottom: 24px;
+}
+
+.container .content .main2 .list .p1 {
+  margin-bottom: 48px;
+}
+
+.container .content .main3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+.container .content .main3 .list-a {
+  width: 46.599%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .content .main3 .list-a .list {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  background: #FFFFFF;
+  width: 45.364%;
+  margin-bottom: 28px;
+  padding-left: 32px;
+}
+
+.container .content .main3 .list-a .list .img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  background: #FFFFFF;
+  width: 86px;
+  height: 86px;
+  padding: 19px;
+  margin-top: 32px;
+  margin-right: 112px;
+}
+
+.container .content .main3 .list-a .list h3 {
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: bold;
+  color: #221E1F;
+  margin-top: 24px;
+}
+
+.container .content .main3 .list-a .list p {
+  font-size: 16px;
+  color: #221E1F;
+  line-height: 1.5;
+  margin-bottom: 48px;
+  text-align: left;
+}
+
+.container .content .main3 .list-a .list2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  background: #FFFFFF;
+  width: 45.364%;
+  padding-left: 32px;
+}
+
+.container .content .main3 .list-a .list2 .img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  background: #FFFFFF;
+  width: 86px;
+  height: 86px;
+  padding: 19px;
+  margin-top: 32px;
+  margin-right: 112px;
+}
+
+.container .content .main3 .list-a .list2 h3 {
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: bold;
+  color: #221E1F;
+  margin-top: 24px;
+}
+
+.container .content .main3 .list-a .list2 p {
+  font-size: 16px;
+  color: #221E1F;
+  line-height: 1.5;
+  margin-bottom: 48px;
+  text-align: left;
+}
+
+.container .content .main3 .text {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 40.808%;
+  padding-right: 49px;
+  margin-top: 165px;
+}
+
+.container .content .main3 .text h1 {
+  text-align: left;
+}
+
+.container .content .main3 .text p {
+  font-size: 17px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+.container .content .main3 .text .a1 {
+  color: #FFFFFF;
+  padding: 12px 32px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.45;
+  background: #56C4C5;
+  border: 1px solid #56C4C5;
+  border-radius: 27px;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .content .swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.container .content .swiper .swiper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .content .s3 {
+  position: absolute;
+  z-index: -1;
+  top: 825px;
+  right: -71px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball02.svg");
+  width: 210px;
+  height: 310px;
+  background-size: 310px 310px;
+}
+
+@media (max-width: 720px) {
+  .container .content h1 {
+    font-size: 24px;
+  }
+  .container .content p {
+    font-size: 14px;
+  }
+  .container .content .main1 .list1 h2 {
+    font-size: 18px;
+  }
+  .container .content .main1 .list1 p {
+    font-size: 12px;
+  }
+  .container .content .main1 .list2 h2 {
+    font-size: 18px;
+  }
+  .container .content .main1 .list2 p {
+    font-size: 12px;
+  }
+  .container .content .main1 .list3 h2 {
+    font-size: 18px;
+  }
+  .container .content .main1 .list3 p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=all.css.map */
